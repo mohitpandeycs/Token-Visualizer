@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 11 35% 98%;
+    --foreground: 11 67% 20%;
+
+    --card: 11 35% 98%;
+    --card-foreground: 11 67% 20%;
+
+    --popover: 11 35% 98%;
+    --popover-foreground: 11 67% 20%;
+
+    --primary: 11 67% 20%;
+    --primary-foreground: 11 35% 98%;
+
+    --secondary: 41 46% 93%;
+    --secondary-foreground: 11 67% 20%;
+
+    --muted: 41 36% 93%;
+    --muted-foreground: 11 27% 37%;
+
+    --accent: 71 58% 88%;
+    --accent-foreground: 71 58% 20%;
+
+    --destructive: 0 76% 90%;
+    --destructive-foreground: 0 63% 31%;
+
+    --border: 41 26% 91%;
+    --input: 41 26% 91%;
+    --ring: 11 67% 20%;
+
+    --radius: 0.5rem;
+
+    --success: 160 84% 39%;
+    --warning: 32 95% 44%;
+
+    --surface-alt: 213 37% 93%;
+
+    --sidebar-background: 11 35% 98%;
+    --sidebar-foreground: 11 67% 25%;
+    --sidebar-primary: 11 67% 20%;
+    --sidebar-primary-foreground: 11 35% 98%;
+    --sidebar-accent: 41 46% 93%;
+    --sidebar-accent-foreground: 11 67% 20%;
+    --sidebar-border: 41 26% 91%;
+    --sidebar-ring: 41 16% 75%;
+    --chart-1: 11 58% 39%;
+    --chart-2: 41 76% 61%;
+    --chart-3: 71 37% 24%;
+    --chart-4: 101 74% 66%;
+    --chart-5: 131 87% 67%;
+    --sidebar: 248 0.3% 98.4%;
+    --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+  }
+
+  .dark {
+    --background: 11 8% 10%;
+    --foreground: 11 47% 70%;
+
+    --card: 11 8% 7%;
+    --card-foreground: 11 47% 70%;
+
+    --popover: 11 8% 10%;
+    --popover-foreground: 11 47% 70%;
+
+    --primary: 11 47% 89%;
+    --primary-foreground: 11 8% 10%;
+
+    --secondary: 41 16% 17%;
+    --secondary-foreground: 11 47% 70%;
+
+    --muted: 41 11% 17%;
+    --muted-foreground: 41 16% 75%;
+
+    --accent: 71 18% 20%;
+    --accent-foreground: 71 58% 70%;
+
+    --destructive: 0 33% 20%;
+    --destructive-foreground: 0 91% 71%;
+
+    --border: 41 11% 17%;
+    --input: 41 6% 25%;
+    --ring: 41 16% 83%;
+
+    --success: 160 84% 39%;
+    --warning: 32 95% 44%;
+
+    --surface-alt: 217 33% 17%;
+
+    --sidebar-background: 11 8% 10%;
+    --sidebar-foreground: 41 46% 95%;
+    --sidebar-primary: 71 58% 55%;
+    --sidebar-primary-foreground: 11 47% 70%;
+    --sidebar-accent: 41 11% 17%;
+    --sidebar-accent-foreground: 41 46% 95%;
+    --sidebar-border: 41 11% 17%;
+    --sidebar-ring: 41 16% 83%;
+    --chart-1: 11 70% 50%;
+    --chart-2: 131 75% 55%;
+    --chart-3: 41 80% 55%;
+    --chart-4: 291 65% 60%;
+    --chart-5: 171 60% 45%;
+    --sidebar: 266 4% 20.8%;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', sans-serif;
+    transition: background-color 300ms, color 300ms;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'DM Serif Display', serif;
+  }
+
+  .font-mono-code {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .chip-0 { background: #BFDBFE; color: #1D4ED8; }
+  .chip-1 { background: #DDD6FE; color: #6D28D9; }
+  .chip-2 { background: #A7F3D0; color: #065F46; }
+  .chip-3 { background: #FDE68A; color: #92400E; }
+  .chip-4 { background: #FBCFE8; color: #9D174D; }
+  .chip-5 { background: #FECACA; color: #991B1B; }
+  .chip-6 { background: #A5F3FC; color: #155E75; }
+  .chip-7 { background: #E9D5FF; color: #7E22CE; }
+  .chip-8 { background: #D9F99D; color: #3F6212; }
+  .chip-9 { background: #FED7AA; color: #9A3412; }
+
+  .dark .chip-0 { background: #1E3A5F; color: #93C5FD; }
+  .dark .chip-1 { background: #2E1065; color: #C4B5FD; }
+  .dark .chip-2 { background: #064E3B; color: #6EE7B7; }
+  .dark .chip-3 { background: #451A03; color: #FDE68A; }
+  .dark .chip-4 { background: #500724; color: #FBCFE8; }
+  .dark .chip-5 { background: #450A0A; color: #FCA5A5; }
+  .dark .chip-6 { background: #164E63; color: #67E8F9; }
+  .dark .chip-7 { background: #3B0764; color: #D8B4FE; }
+  .dark .chip-8 { background: #1A2E05; color: #BEF264; }
+  .dark .chip-9 { background: #431407; color: #FDBA74; }
+}
