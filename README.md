@@ -26,7 +26,7 @@ An interactive, browser-based tool for exploring how large language models token
 
 Understanding tokens is the key to writing better prompts, controlling costs, and building smarter AI applications. Whether you're a developer optimizing a production pipeline, a student learning about large language models, or just curious what "Hello, world!" looks like to GPT-4o, this tool is for you.
 
----
+
 
 <div align="left">
 
@@ -58,7 +58,7 @@ Understanding tokens is the key to writing better prompts, controlling costs, an
 
 > **Total: 90+ models** — with new models added regularly.
 
----
+
 
 ## 📋 Usage Guide
 
@@ -89,7 +89,6 @@ Understanding tokens is the key to writing better prompts, controlling costs, an
 
 The model selector is global - changing it in the playground automatically updates the Cost Estimator and System Prompt Panel too.
 
----
 
 ## ✅ Getting Started
 
@@ -178,7 +177,6 @@ Push your branch and open a PR against `master`. Describe what you changed and w
 - Update documentation
 - Use meaningful commit messages
 
----
 
 ## 🛠 Tech Stack
 
@@ -194,7 +192,6 @@ Push your branch and open a PR against `master`. Describe what you changed and w
 
 All tokenization for OpenAI models happens **client-side** via WebAssembly. No text you enter is ever sent to a server.
 
----
 
 ## 📬 Contact
 
@@ -206,7 +203,7 @@ Built and maintained by **[Mohit Pandey :)](https://github.com/mohitpandeycs)**
 
 Found a bug? [Open an issue](https://github.com/mohitpandeycs/Token-Visualizer/issues). Have a feature idea? [Start a discussion](https://github.com/mohitpandeycs/Token-Visualizer/discussions).
 
----
+
 
 This project is licensed under the **MIT License** 
 
