@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://tokenlens.app/sitemap.xml
+Sitemap: https://token-visualizer-tau.vercel.app/sitemap.xml
