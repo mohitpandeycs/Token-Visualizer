@@ -205,7 +205,8 @@ Found a bug? [Open an issue](https://github.com/mohitpandeycs/Token-Visualizer/i
 
 
 
-This project is licensed under the **MIT License** 
+This project is released under the [MIT License](https://opensource.org/licenses/MIT).
+
 
 Copyright © **2026 - Present** Token Visualizer
 
