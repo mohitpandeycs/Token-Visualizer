@@ -201,8 +201,7 @@ Built and maintained by **[Mohit Pandey :)](https://github.com/mohitpandeycs)**
 -  LinkedIn — [in/mohitpandeycs](https://linkedin.com/in/mohitpandeycs)
 -  Twitter / X — [@mohitpandeycs](https://twitter.com/mohitpandeycs)
 
-Found a bug? [Open an issue](https://github.com/mohitpandeycs/Token-Visualizer/issues). Have a feature idea? [Start a discussion](https://github.com/mohitpandeycs/Token-Visualizer/discussions).
-
+Found a bug? [Open an issue](https://github.com/mohitpandeycs/Token-Visualizer/issues). 
 
 
 This project is released under the [MIT License](https://opensource.org/licenses/MIT).
