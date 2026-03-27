@@ -165,7 +165,7 @@ bun run lint
 
 **5. Open a Pull Request**
 
-Push your branch and open a PR against `master`. Describe what you changed and why.
+Push your branch and open a PR against `main`. Describe what you changed and why.
 
 
 
