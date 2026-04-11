@@ -1,3 +1,6 @@
+<p align="center">
+	<img src="public/favicon.png" alt="Token Visualizer Logo" width="84" />
+</p>
 <div align="center">
 
 # Token Visualizer
